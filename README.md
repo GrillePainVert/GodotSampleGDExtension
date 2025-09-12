@@ -18,8 +18,8 @@ To open it in Visual Studio, chose "Open a Local Folder" and select the **code f
 After opening, CMAKE should generate the proper build scripts (you can see it in Output)
 
 ## Troubleshooting
-If the Build menu remains empty in VS, close and reopen visual studio.
-If you debug and get this message from godot: "**Couldn't detect whether to run the editor, the project manager or a specific project. Aborting.**", launch the Edit target instead of debug, then play. After launching Edit, Debug target will work.
+-If the Build menu remains empty in VS, close and reopen visual studio.
+-If you debug and get this message from godot: "**Couldn't detect whether to run the editor, the project manager or a specific project. Aborting.**", launch the Edit target instead of debug, then play. After launching Edit, Debug target will work.
 
 ## Build and debug
 When building, it first retrieves and compiles godot-cpp versioin 4.4 (to change this, edit CMakLists.txt)
