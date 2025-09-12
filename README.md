@@ -14,8 +14,12 @@ https://docs.godotengine.org/en/4.4/tutorials/scripting/gdextension/gdextension_
 #### Requirement: Visual Studio installed with "Desktop deveopment in C++" workload.
 https://visualstudio.microsoft.com/fr/downloads/
 
-To open it in Visual Studio, chose "Open a Local Folder" and the code folder
+To open it in Visual Studio, chose "Open a Local Folder" and select the **code folder**.
 After opening, CMAKE should generate the proper build scripts (you can see it in Output)
+
+## Troubleshooting
+If the Build menu remains empty in VS, close and reopen visual studio.
+If you debug and get this message from godot: "**Couldn't detect whether to run the editor, the project manager or a specific project. Aborting.**", launch the Edit target instead of debug, then play. After launching Edit, Debug target will work.
 
 ## Build and debug
 When building, it first retrieves and compiles godot-cpp versioin 4.4 (to change this, edit CMakLists.txt)
