@@ -13,6 +13,7 @@ https://docs.godotengine.org/en/4.4/tutorials/scripting/gdextension/gdextension_
 ## Open in Visual Studio
 #### Requirement: Visual Studio installed with "Desktop deveopment in C++" workload.
 https://visualstudio.microsoft.com/fr/downloads/
+#### Requirement: Godot installed 
 
 To open it in Visual Studio, chose "Open a Local Folder" and select the **code folder**.
 After opening, CMAKE should generate the proper build scripts (you can see it in Output)
@@ -24,6 +25,7 @@ After opening, CMAKE should generate the proper build scripts (you can see it in
 
 ## Build and debug
 When building, it first retrieves and compiles godot-cpp versioin 4.4 (to change this, edit CMakLists.txt)
+#### Important: you need to edit the launch.vs.json file to set the "exe" paths to your godot executables.
 The compiled dll is then copied to godot/bin where library.gdextension tells Godot about it
 
 Build the x64-Debug version of the dll to debug, and select Debug debug target to launch and debug the godot project directly.
