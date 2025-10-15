@@ -7,7 +7,7 @@
       "name": "Debug",
       "type": "cppvsdbg",
       "project": "CMakeLists.txt",
-      "exe": "${workspaceRoot}\\..\\..\\Godot_v4.5-stable_win64.exe",
+      "exe": "${workspaceRoot}\\..\\..\\Godot\\Godot_v4.5-stable_win64.exe",
       "args": [
         "--verbose",
         "--path",
@@ -18,7 +18,7 @@
     {
       "name": "LaunchConsole",
       "type": "launch",
-      "exe": "${workspaceRoot}\\..\\..\\Godot_v4.5-stable_win64_console.exe",
+      "exe": "${workspaceRoot}\\..\\..\\Godot\\Godot_v4.5-stable_win64_console.exe",
       "project": "CMakeLists.txt",
       "args": [
         "--verbose",
@@ -31,7 +31,7 @@
       "name": "Edit",
       "type": "cppvsdbg",
       "console": "external",
-      "exe": "${workspaceRoot}\\..\\..\\Godot_v4.5-stable_win64.exe",
+      "exe": "${workspaceRoot}\\..\\..\\Godot\\Godot_v4.5-stable_win64.exe",
       "project": "CMakeLists.txt",
       "args": [
         "--verbose",
@@ -40,7 +40,9 @@
         "${workspaceRoot}\\..\\godot"
       ],
       "cwd": "${workspaceRoot}\\..\\godot"
-    },
+    }
+  ],
+  "hiddenConfigurations": [
     {
       "name": "DISPLAY VARIABLE",
       "type": "launch",
@@ -52,5 +54,6 @@
         "echo projectDir is: ${workspaceRoot} && pause"
       ]
     }
+
   ]
 }
